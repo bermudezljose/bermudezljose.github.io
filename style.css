@@ -569,6 +569,16 @@ body {
     width: auto;
     background-color: white;
   }
+
+  #grid img {
+    width: 75%;
+    margin-top: 25%;
+  }
+
+  #grid p {
+    margin-bottom: 15%;
+  }
+
   .establishments {
     background-color: #e6e6e6;
     padding-top: 50px;
@@ -627,6 +637,11 @@ body {
     text-align: center;
     width: auto;
     background-color: white;
+  }
+
+  #wrapper img {
+    width: 75%;
+    margin-top: 25%;
   }
 
   .serviceArea {
