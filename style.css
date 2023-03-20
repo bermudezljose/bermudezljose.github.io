@@ -101,6 +101,626 @@ body {
   font-size: 2.2rem;
 }
 
+.hook {
+  text-align: center;
+  padding: 5%;
+  display: block;
+  background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+    url("Home Images/FryingOil.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.hook h2 {
+  margin: 2%;
+  font-weight: 750;
+  font-size: 2em;
+}
+
+.hook .button {
+  cursor: pointer;
+  margin: 5%;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #11a728;
+  background-color: rgba(2, 158, 15, 0.5);
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  width: auto;
+}
+
+.hook .button:hover {
+  background-color: #11a728;
+  color: white;
+}
+
+.hook h2 .paid {
+  color: #11a728;
+}
+
+.hook p {
+  display: block;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 2% 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.GreaseTrap {
+  text-align: center;
+  padding: 5%;
+  display: block;
+  background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+    url("Home Images/Grease Trap.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.GreaseTrap h2 {
+  margin: 2%;
+  font-weight: 750;
+  font-size: 2em;
+}
+
+.GreaseTrap .button {
+  cursor: pointer;
+  margin: 5%;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #11a728;
+  background-color: rgba(2, 158, 15, 0.5);
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  width: auto;
+}
+
+.GreaseTrap .button:hover {
+  background-color: #11a728;
+  color: white;
+}
+
+.GreaseTrap p {
+  display: block;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 2% 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.PressureWash {
+  text-align: center;
+  padding: 5%;
+  display: block;
+  background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+    url("Home Images/Pressure Washing.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.PressureWash h2 {
+  margin: 2%;
+  font-weight: 750;
+  font-size: 2em;
+}
+
+.PressureWash .button {
+  cursor: pointer;
+  margin: 5%;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #11a728;
+  background-color: rgba(2, 158, 15, 0.5);
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  width: auto;
+}
+
+.PressureWash .button:hover {
+  background-color: #11a728;
+  color: white;
+}
+
+.PressureWash strong {
+  color: #2ae946;
+}
+
+.PressureWash p {
+  display: block;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 2% 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.JetLine {
+  text-align: center;
+  padding: 5%;
+  display: block;
+  background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+    url("Home Images/Jet Line.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.JetLine h2 {
+  margin: 2%;
+  font-weight: 750;
+  font-size: 2em;
+}
+
+.JetLine .button {
+  cursor: pointer;
+  margin: 5%;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #11a728;
+  background-color: rgba(2, 158, 15, 0.5);
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  width: auto;
+}
+
+.JetLine .button:hover {
+  background-color: #11a728;
+  color: white;
+}
+
+.JetLine p {
+  display: block;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 2% 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/*Section Establisments*/
+#grid img {
+  width: 75%;
+  margin-top: 25%;
+}
+
+#grid p {
+  margin-bottom: 15%;
+}
+
+#grid {
+  width: min(90%, 75rem);
+  height: auto;
+  margin: 5rem auto;
+  align-items: normal;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  justify-content: space-around;
+  text-align: center;
+  width: auto;
+  background-color: white;
+}
+.establishments {
+  background-color: #e6e6e6;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+.establishments h2 {
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-size: 2.3em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1d1d1f;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.establishments .button {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #11a728;
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(2, 158, 15, 0.65);
+  color: white;
+}
+
+.establishments .button:hover {
+  background-color: #11a728;
+  color: #fff;
+}
+
+#wrapper img {
+  width: 75%;
+  margin-top: 25%;
+}
+
+#wrapper {
+  width: min(90%, 75rem);
+  height: auto;
+  margin: 5rem auto;
+  align-items: normal;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  justify-content: space-around;
+  text-align: center;
+  width: auto;
+  background-color: white;
+}
+
+.serviceArea {
+  background-color: white;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+}
+
+.serviceArea h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.125;
+  letter-spacing: 0.004em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #1d1d1f;
+  padding-top: 8px;
+}
+
+.serviceArea .locations {
+  text-align: center;
+  padding: 0 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.serviceArea .button {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #11a728;
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(2, 158, 15, 0.65);
+  color: white;
+}
+
+.serviceArea .button:hover {
+  background-color: #11a728;
+  color: #fff;
+}
+
+/*Phone media Query*/
+@media (max-width: 540px) {
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    line-height: 1.125;
+    color: #1d1d1f;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+  }
+
+  .backgroundPic {
+    background-image: url("Home Images/FryingOil.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 20%;
+    opacity: 0.9;
+  }
+
+  .backgroundPic h1 {
+    color: white;
+  }
+
+  /*Used Cooking Oil section*/
+  .hook {
+    display: block;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 60px;
+    background-color: white;
+    margin-bottom: 10px;
+    color: white;
+    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+      url("Home Images/FryingOil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*Grease Trap Cleaning*/
+  .GreaseTrap {
+    display: block;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 60px;
+    background-color: white;
+    margin-bottom: 10px;
+    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+      url("Home Images/Grease Trap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+
+  /*Pressure Washing*/
+  .PressureWash {
+    display: block;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 60px;
+    background-color: white;
+    margin-bottom: 10px;
+    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+      url("Home Images/Pressure Washing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+  }
+
+  /*Jet Line Cleaning*/
+  .JetLine {
+    display: block;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    background-color: white;
+    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
+      url("Home Images/Jet Line.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+  }
+
+  /*Section Establisments*/
+  #grid {
+    width: min(90%, 75rem);
+    height: auto;
+    margin: 5rem auto;
+    align-items: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    justify-content: space-around;
+    text-align: center;
+    width: auto;
+    background-color: white;
+  }
+  .establishments {
+    background-color: #e6e6e6;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  .establishments h2 {
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    font-size: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d1d1f;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+  }
+
+  .establishments .button {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #11a728;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(2, 158, 15, 0.5);
+    color: white;
+  }
+
+  .establishments .button:hover {
+    background-color: #11a728;
+    color: #fff;
+  }
+
+  #wrapper {
+    width: min(90%, 75rem);
+    height: auto;
+    margin: 5rem auto;
+    align-items: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    justify-content: space-around;
+    text-align: center;
+    width: auto;
+    background-color: white;
+  }
+
+  .serviceArea {
+    background-color: white;
+    margin-bottom: 5%;
+  }
+
+  .serviceArea h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: 0.004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d1d1f;
+    padding-top: 8px;
+  }
+  .serviceArea .locations {
+    text-align: center;
+    padding: 0 10px;
+    margin: 10px;
+    width: 100%;
+  }
+
+  .serviceArea .button {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #11a728;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(2, 158, 15, 0.5);
+    color: white;
+  }
+
+  #Houston {
+    max-width: 172px;
+  }
+
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .topright {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    padding: 25px 0;
+  }
+
+  .topright ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .topright li {
+    text-align: center;
+  }
+
+  .topright li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .topright.active {
+    display: flex;
+  }
+
+  .phone {
+    display: none;
+  }
+}
+
 /*Footer Section*/
 div .row {
   display: flex;
@@ -165,500 +785,6 @@ div .row {
 .footer-col ul li a:hover {
   padding-left: 10px;
   color: #11a728;
-}
-
-.hook {
-  text-align: center;
-  padding: 5%;
-  display: block;
-  background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
-    url("Home Images/FryingOil.png");
-  color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 15px;
-}
-
-.hook h2 {
-  margin: 2%;
-  font-weight: 750;
-  font-size: 1.5em;
-}
-
-.hook .button {
-  cursor: pointer;
-  margin: 5%;
-  padding: 10px 20px;
-  display: inline-block;
-  border: 1px solid #11a728;
-  background-color: rgba(2, 158, 15, 0.5);
-  font-size: 16px;
-  font-family: sans-serif;
-  transition: 0.6s;
-  position: relative;
-  overflow: hidden;
-  color: white;
-}
-
-@media (max-width: 540px) {
-  h1 {
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 0.004em;
-    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
-      sans-serif;
-    line-height: 1.125;
-    color: #1d1d1f;
-    margin: 0;
-    padding: 0;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    display: block;
-  }
-
-  .backgroundPic {
-    background-image: url("Home Images/FryingOil.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    padding: 20%;
-    opacity: 0.9;
-  }
-
-  .backgroundPic h1 {
-    color: white;
-  }
-
-  /*Used Cooking Oil section*/
-  .hook {
-    display: block;
-    text-align: center;
-    padding-top: 65px;
-    padding-bottom: 60px;
-    background-color: white;
-    margin-bottom: 10px;
-    color: white;
-    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
-      url("Home Images/FryingOil.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .hook h2 {
-    font-weight: 750;
-    color: white;
-    display: block;
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
-    margin-block-start: 0.83em;
-    margin-block-start: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .hook .button {
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    border: 1px solid #11a728;
-    background-color: rgba(2, 158, 15, 0.5);
-    font-size: 16px;
-    font-family: sans-serif;
-    transition: 0.6s;
-    position: relative;
-    overflow: hidden;
-    color: white;
-  }
-
-  .hook .button:hover {
-    background-color: #11a728;
-    color: white;
-  }
-
-  .hook p {
-    display: block;
-    padding: 0;
-    font-size: 1em;
-    font-weight: 600;
-    margin: 2% 0;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    font-family: sans-serif;
-  }
-
-  .hook h2 .paid {
-    color: #11a728;
-  }
-
-  /*Grease Trap Cleaning*/
-  .GreaseTrap {
-    display: block;
-    text-align: center;
-    padding-top: 65px;
-    padding-bottom: 60px;
-    background-color: white;
-    margin-bottom: 10px;
-    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
-      url("Home Images/Grease Trap.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-  }
-
-  .GreaseTrap h2 {
-    font-weight: 750;
-    color: white;
-    display: block;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
-    margin-block-start: 0.83em;
-    margin-block-start: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .GreaseTrap p {
-    display: block;
-    padding: 0;
-    font-size: 1em;
-    font-weight: 550;
-    margin: 10px 0;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-  }
-
-  .GreaseTrap .button {
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    border: 1px solid #11a728;
-    font-size: 16px;
-    font-family: sans-serif;
-    transition: 0.6s;
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(2, 158, 15, 0.5);
-    color: white;
-  }
-
-  .GreaseTrap .button:hover {
-    background-color: #11a728;
-    color: white;
-  }
-
-  /*Pressure Washing*/
-  .PressureWash {
-    display: block;
-    text-align: center;
-    padding-top: 65px;
-    padding-bottom: 60px;
-    background-color: white;
-    margin-bottom: 10px;
-    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
-      url("Home Images/Pressure Washing.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    color: white;
-  }
-
-  .PressureWash h2 {
-    font-weight: 750;
-    color: white;
-    display: block;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
-    margin-block-start: 0.83em;
-    margin-block-start: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .PressureWash p {
-    display: block;
-    padding: 0;
-    font-size: 17px;
-    font-weight: 400;
-    margin: 10px 0;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-  }
-
-  .PressureWash strong {
-    color: #2ae946;
-  }
-
-  .PressureWash .button {
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    border: 1px solid #11a728;
-    font-size: 16px;
-    font-family: sans-serif;
-    transition: 0.6s;
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(2, 158, 15, 0.5);
-    color: white;
-  }
-
-  .PressureWash .button:hover {
-    background-color: #11a728;
-    color: #fff;
-  }
-
-  /*Jet Line Cleaning*/
-  .JetLine {
-    display: block;
-    text-align: center;
-    padding-top: 65px;
-    padding-bottom: 80px;
-    background-color: white;
-    background-image: linear-gradient(0deg, #00000088 30%, #ffffff44 100%),
-      url("Home Images/Jet Line.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    color: white;
-  }
-
-  .JetLine h2 {
-    font-weight: 750;
-    color: white;
-    display: block;
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
-    margin-block-start: 0.83em;
-    margin-block-start: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .JetLine p {
-    display: block;
-    padding: 0;
-    font-size: 17px;
-    font-weight: 400;
-    margin: 10px 0;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-  }
-
-  .JetLine .button {
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    border: 1px solid #11a728;
-    font-size: 16px;
-    font-family: sans-serif;
-    transition: 0.6s;
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(2, 158, 15, 0.5);
-    color: white;
-  }
-
-  .JetLine .button:hover {
-    background-color: #11a728;
-    color: #fff;
-  }
-
-  /*Section Establisments*/
-  #wrapper {
-    max-width: auto;
-    flex-wrap: wrap;
-    align-items: normal;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    width: auto;
-    background-color: white;
-  }
-  .establishments {
-    background-color: #e6e6e6;
-    padding-top: 50px;
-    margin-bottom: 20px;
-    display: block;
-    text-align: center;
-  }
-
-  .establishments h2 {
-    line-height: 1.125;
-    font-weight: 600;
-    letter-spacing: 0.004em;
-    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
-      sans-serif;
-    font-size: 28px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #1d1d1f;
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-  }
-
-  .establishments .list {
-    background-color: white;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    justify-content: space-around;
-    margin: 0 15px 0 15px;
-  }
-
-  .establishments .button {
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    border: 1px solid #11a728;
-    font-size: 16px;
-    font-family: sans-serif;
-    transition: 0.6s;
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(2, 158, 15, 0.5);
-    color: white;
-  }
-
-  .establishments .button:hover {
-    background-color: #11a728;
-    color: #fff;
-  }
-
-  .serviceArea {
-    background-color: white;
-    margin-bottom: 20px;
-  }
-
-  .serviceArea h2 {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.125;
-    letter-spacing: 0.004em;
-    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
-      sans-serif;
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: #1d1d1f;
-    padding-top: 8px;
-  }
-  .serviceArea .locations {
-    text-align: center;
-    padding: 0 10px;
-    margin: 10px;
-    width: 100%;
-  }
-
-  .serviceArea .list {
-    padding: 3%;
-    justify-content: space-around;
-    margin: 3%;
-  }
-
-  .serviceArea .button {
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    border: 1px solid #11a728;
-    font-size: 16px;
-    font-family: sans-serif;
-    transition: 0.6s;
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(2, 158, 15, 0.5);
-    color: white;
-  }
-
-  .serviceArea .button:hover {
-    background-color: #11a728;
-    color: #fff;
-  }
-
-  #Houston {
-    max-width: 172px;
-  }
-
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-
-  .toggle-button {
-    display: flex;
-  }
-
-  .topright {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    height: 100%;
-    padding: 25px 0;
-  }
-
-  .topright ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .topright li {
-    text-align: center;
-  }
-
-  .topright li a {
-    padding: 0.5rem 1rem;
-  }
-
-  .topright.active {
-    display: flex;
-  }
-
-  .phone {
-    display: none;
-  }
 }
 
 @media (max-width: 540px) {
